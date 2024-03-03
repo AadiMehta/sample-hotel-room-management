@@ -1,0 +1,45 @@
+export const Rooms = [
+  {
+    id: 1,
+    name: "Room 1",
+    type: "single",
+    price: 1200,
+    status: true,
+    guestInfo: null,
+  },
+  {
+    id: 2,
+    name: "Room 2",
+    type: "double",
+    price: 1500,
+    status: false,
+    guestInfo: {
+      name: "abc",
+      mobile: "4545781200",
+    },
+  },
+  {
+    id: 3,
+    name: "Room 3",
+    type: "single",
+    price: 2500,
+    status: true,
+    guestInfo: null,
+  },
+  {
+    id: 4,
+    name: "Room 4",
+    type: "single",
+    price: 1100,
+    status: true,
+    guestInfo: null,
+  },
+  {
+    id: 5,
+    name: "Room 5",
+    type: "double",
+    price: 1800,
+    status: true,
+    guestInfo: null,
+  },
+];
